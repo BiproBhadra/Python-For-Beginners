@@ -1,0 +1,10 @@
+import numpy as np
+a=np.array([1,2,3,4]).reshape(2,2)
+b=np.array([5,6,7,8]).reshape(2,2)
+print("Array a=",a)
+print("Array b=",b)
+print("Sum of Matrix:",a+b)
+print("Subtraction of Matrix:",b-a)
+print("Multiplication of Matrix:",a.dot(b))
+print("Power of Matrix:",a**b)
+print("Division of Matrix:",a/b)
